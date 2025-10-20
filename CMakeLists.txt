@@ -3,4 +3,6 @@ project(cppLearn)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(cppLearn main.cpp)
+add_executable(cppLearn main.cpp
+        Osoba.cpp
+        Osoba.h)
